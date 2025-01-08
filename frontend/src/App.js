@@ -1,4 +1,3 @@
-import { Box } from '@chakra-ui/react'
 import React from 'react'
 import Header from './components/Header'
 import LeftSideBar from './components/LeftSideBar'
@@ -10,8 +9,7 @@ export default function App() {
     <>
       <LeftSideBar />
       <Header />
-      
-        <MainComponent />
+      <MainComponent />
       <RightSideBar />
     </>
   );
